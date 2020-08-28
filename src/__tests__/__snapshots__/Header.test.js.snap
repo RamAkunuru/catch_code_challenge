@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component render matches the snapshot 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    <Logo
+      width="13.2rem"
+    />
+  </h1>
+  <Connect(PriceDropdown) />
+</div>
+`;

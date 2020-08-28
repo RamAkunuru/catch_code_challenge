@@ -1,0 +1,2 @@
+export const GET_PRODUCT_LIST = 'GET_PRODUCT_LIST';
+export const SORT_BY_PRICE = 'SORT_BY_PRICE';

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component render matches the snapshot 1`] = `
+<div
+  className="dashboard"
+>
+  <_default
+    key="123"
+    product={
+      Object {
+        "id": "123",
+        "imageUrl": "https://google.com/something1",
+        "name": "abc",
+        "quantityAvailable": 12,
+        "retailPrice": 456,
+        "salePrice": 123,
+      }
+    }
+  />
+  <_default
+    key="124"
+    product={
+      Object {
+        "id": "124",
+        "imageUrl": "https://google.com/something2",
+        "name": "def",
+        "quantityAvailable": 14,
+        "retailPrice": 457,
+        "salePrice": 124,
+      }
+    }
+  />
+</div>
+`;

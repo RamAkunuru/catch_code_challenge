@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard component render matches the snapshot 1`] = `
+<div
+  className="product-card"
+>
+  <a
+    href="#"
+    title="abc"
+  >
+    <div
+      className="product-image"
+    >
+      <img
+        alt="abc"
+        src="https://google.com/something1"
+      />
+      <span />
+    </div>
+    <div
+      className="product-details"
+    >
+      <h2
+        className="product-name"
+      >
+        abc
+      </h2>
+      <p
+        className="product-price"
+      >
+        <del
+          className="price"
+        >
+          456
+        </del>
+      </p>
+      <p
+        className="price sale-price"
+      >
+        123
+      </p>
+    </div>
+  </a>
+</div>
+`;
