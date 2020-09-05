@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default (props) => {
-    const {name, salePrice, retailPrice, imageUrl, quantityAvailable} = props.product;
+    const { name, salePrice, retailPrice, imageUrl, quantityAvailable } = props.product;
 
     return (
         <div className="product-card">

@@ -9,15 +9,15 @@ export function sortByPrice(payload) {
     return { type: SORT_BY_PRICE, payload };
 }
 
-export function getAPIDetails() {
-    return dispatch => {
-        Api.products
-            .getProducts()
-            .then(response => {
-                dispatch(setProductList(response.data));
-            })
-            .catch(error => {
-                console.log('error = ', error);
-            });
-    };
-}
+// export function getAPIDetails() {
+//     return dispatch => {
+//         Api.products
+//             .getProducts()
+//             .then(response => {
+//                 dispatch(setProductList(response.data));
+//             })
+//             .catch(error => {
+//                 console.log('error = ', error);
+//             });
+//     };
+// }
