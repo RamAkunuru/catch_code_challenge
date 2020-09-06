@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-onchange */
 import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -10,7 +11,7 @@ const PriceDropdown = props => {
     }
 
     return (
-        <select className="price-dropdown" onBlur={handlePriceDropdown}>
+        <select className="price-dropdown" onChange={handlePriceDropdown}>
             <option value="highest">Highest Price</option>
             <option value="lowest">Lowest Price</option>
         </select>
