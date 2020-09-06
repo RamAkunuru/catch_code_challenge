@@ -10,7 +10,7 @@ const PriceDropdown = props => {
     }
 
     return (
-        <select className="price-dropdown" onChange={handlePriceDropdown}>
+        <select className="price-dropdown" onBlur={handlePriceDropdown}>
             <option value="highest">Highest Price</option>
             <option value="lowest">Lowest Price</option>
         </select>
